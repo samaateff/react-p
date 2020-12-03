@@ -36,6 +36,12 @@ git remote add origin https://github.com/samaateff/react-p.git
 git push origin master
 b3d keda nro7 file pachage.json
 ndef "homepage":"https://samaateff.github.io/React-p",
+ndef fe scripts 
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+nft7 terminal
+npm i gh-pages --save
+git add .
 
 
 */
